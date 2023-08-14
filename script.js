@@ -39,6 +39,7 @@ light.addEventListener('click',()=>{
     light.style.color="white";
     dd.style.color="white";
     search.style.backgroundColor="#1E2A47";
+    search.style.color="white";
     divv.style.backgroundColor="#1E2A47";
     name.style.color="white";
     join.style.color="white";
