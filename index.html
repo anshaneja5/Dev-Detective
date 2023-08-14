@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="wrapper bg-[#141D2F] w-[100vw] h-[100vh] flex justify-center items-center" topdiv>
+        <div class="content w-[600px]">
+            <div class="top-div flex items-baseline justify-between mb-[50px]">
+                <h1 class="text-white text-3xl font-bold" data-dd>Dev Detective</h1>
+                <p class="text-white cursor-pointer font-bold" data-light>Light</p>
+            </div>
+            <div class="middle-div mb-4 relative">
+                <form action="" data-searchForm>
+                    <input type="text" data-search placeholder="Enter a Github Username...." class="bg-[#1E2A47] input-container rounded-2xl text-white">
+                    <button type="submit" class="absolute top-0 right-0 z-10 bg-blue-600 p-3 rounded-md text-white mr-1 mt-2 hover:bg-[#60ABFF] duration-150">Search</button>
+                </form>
+            </div>
+            <div class="main-div bg-[#1E2A47] rounded-2xl p-3">
+                <div class="name-div flex justify-between mb-4">
+                    <div class="flex">
+                        <img src="" alt="" data-img class="w-[100px] h-[100px] rounded-full">
+                    </div>
+                    <div class="flex flex-col">
+                        <p data-name class="text-white"></p>
+                        <a href="" data-attherate class="text-blue-600"></a>
+                    </div>
+                    <p data-join class="text-white"></p>
+                </div>
+                <div class="bio-div text-[#788FB4] mb-4"></div>
+                <div class="numbers-div bg-[#141D2F] p-4 rounded-2xl">
+                    <div class="flex justify-between">
+                        <p class="text-[#4B6A9B]">Repos</p>
+                        <p class="text-[#4B6A9B]">Followers</p>
+                        <p class="text-[#4B6A9B]">Following</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <p data-repos class="text-white font-bold"></p>
+                        <p data-followers class="text-white font-bold"></p>
+                        <p data-following class="text-white font-bold"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

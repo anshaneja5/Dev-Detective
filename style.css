@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input-container::placeholder{
+    color: #4B6A9B;
+}
+.input-container{
+    appearance: none;
+    width: 100%;
+    height: 50px;
+    padding: 2rem;
+}
