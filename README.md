@@ -1,2 +1,4 @@
 # Dev-Detective
-this is my another short project, in this i have used github api to fetch data of the searched users. this project might have responsiveness issues, i will try my best to resolve it in future as i learn more.
+This is a simple application that uses github api to fetch the data on basis of the entered username.
+
+![image](https://github.com/anshaneja5/Dev-Detective/assets/128882734/58d7d7d6-3510-4f22-83b9-a431d279e473)
